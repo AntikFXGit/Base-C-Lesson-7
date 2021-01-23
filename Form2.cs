@@ -32,8 +32,7 @@ namespace Base_C_Lesson_7
             lvlGameStatus.ForeColor = Color.FromArgb(20, 100, 40);  // поле статуса
             lblCntTry.Text = "[попыток: 0]"; // поле кол-во попыток
             txtUnumber.Text = ""; // поле номера
-
-            //MessageBox.Show("Старт игры, номер: "+ this.gameNumber);
+            MessageBox.Show("Старт игры, попытайтесь угадать число от 1 до 100,\nза минимальное число попыток.");
         }
 
         void StopGame()
