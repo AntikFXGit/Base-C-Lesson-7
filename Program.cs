@@ -17,8 +17,13 @@ namespace Base_C_Lesson_7
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Задача 1
             Form form = new Form1();
+
+            // Задача 2
             Form form2 = new Form2();
+
+            // Запуск...
             Application.Run(form2);
         }
 

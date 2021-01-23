@@ -22,8 +22,6 @@ namespace Base_C_Lesson_7
             this.Text = "Игра: угадай число.";
         }
 
-
-
         void StartGame()
         {
             Random rnd = new Random();
@@ -46,7 +44,6 @@ namespace Base_C_Lesson_7
             lvlGameStatus.Text = "Откл."; // поле статуса
             lvlGameStatus.ForeColor = Color.FromArgb(255, 0, 0);  // поле статуса
         }
-
 
 
 
@@ -81,11 +78,7 @@ namespace Base_C_Lesson_7
             }
         }
 
-
-
-
-
-
+        /* EVENTS...*/
         private void btnStartGame_Click(object sender, EventArgs e)
         {
             StartGame();
